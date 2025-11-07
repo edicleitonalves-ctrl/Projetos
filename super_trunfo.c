@@ -15,8 +15,8 @@ int main() {
     float p_densidade_pop = (float)p_populacao / p_area;
     float p_pib_reais = p_pib * 1000000000.0;
     float p_pib_per_capita = p_pib_reais / (float)p_populacao;
-    // NOVO NÍVEL MESTRE: 3. CÁLCULO DO SUPER PODER
-    double p_super_poder = (double)p_populacao + (double)p_area + (double)p_pib + (double)p_turismo + (double)p_pib_per_capita + (1.0 / (double)p_densidade_pop);
+    // NOVO NÍVEL MESTRE: CÁLCULO DO SUPER PODER
+    float p_super_poder = (float)p_populacao + (float)p_area + (float)p_pib + (float)p_turismo + (float)p_pib_per_capita + (1.0 / (float)p_densidade_pop);
 
     // Variáveis do Cartão "Super Trunfo" - Maceió/Alagoas
     char a_estado[] = "Alagoas";
@@ -29,8 +29,8 @@ int main() {
     float a_densidade_pop = (float)a_populacao / a_area;
     float a_pib_reais = a_pib * 1000000000.0;
     float a_pib_per_capita = a_pib_reais / (float)a_populacao;
-    // NOVO NÍVEL MESTRE: 3. CÁLCULO DO SUPER PODER
-    double a_super_poder = (double)a_populacao + (double)a_area + (double)a_pib + (double)a_turismo + (double)a_pib_per_capita + (1.0 / (double)a_densidade_pop);
+    // NOVO NÍVEL MESTRE: CÁLCULO DO SUPER PODER
+    float a_super_poder = (float)a_populacao + (float)a_area + (float)a_pib + (float)a_turismo + (float)a_pib_per_capita + (1.0 / (float)a_densidade_pop);
 
     //título do jogo ( Super Trunfo)
     printf("*** Super Trunfo ***\n");
