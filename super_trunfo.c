@@ -80,7 +80,7 @@ int main() {
     
     //EXIBIR O RESULTADO DA COMPARAÇÃO (Formato do Requisito)
     printf("\nComparação de cartas (Atributo: População):\n");
-    printf("Card 1 - %s (%s): %d habitantes\n", p_capital, p_estado, p_populacao);
+    printf("\nCard 1 - %s (%s): %d habitantes\n", p_capital, p_estado, p_populacao);
     printf("Card 2 - %s (%s): %d habitantes\n", a_capital, a_estado, a_populacao);
     
     //DETERMINAR A CARTA VENCEDORA usando if/else
