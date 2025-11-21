@@ -45,5 +45,27 @@ int main() {
         contadorRainha++;
     } while (contadorRainha < casasRainha);
 
+    printf("\n");
+
+    // --- PEÇA 4: CAVALO (Usando LOOPS ANINHADOS) ---
+    // Requisito: Mover em "L": duas casas para baixo e uma para a esquerda
+    // É obrigatório usar pelo menos DOIS LOOPS ANINHADOS
+    printf("--- Movimento do Cavalo ---\n");
+
+    // Primeiro loop obrigatório: FOR
+    for (int i = 0; i < 1; i++) {
+
+        int passosVerticais = 0;
+
+        // Segundo loop: WHILE (movimento vertical - duas casas para baixo)
+        while (passosVerticais < 2) {
+            printf("Baixo\n");
+            passosVerticais++;
+        }
+
+        // Movimento horizontal – uma casa para a esquerda
+        printf("Esquerda\n");
+    }
+
     return 0;
 }
